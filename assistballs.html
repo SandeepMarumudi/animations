@@ -1,0 +1,151 @@
+<html>
+    <head>
+        <style>
+            #box{
+                width:300;
+                height:200;
+                background-color: aquamarine;
+                margin-left: 100;
+                margin-top: 100;
+                position: relative;
+                
+
+            }
+            #first{
+                width: 30px;
+                height: 30px;
+                background-color:blue;
+                border-radius: 50%;
+                margin-left: 20;
+                
+                bottom: 40%;
+                animation-duration: 2s;
+                
+                animation-name:bluee;
+                animation-iteration-count: infinite;
+                animation-direction: normal;
+                position: absolute;
+
+            }
+            @keyframes bluee{
+                from{
+                    transform: translateY(-20px);
+                }
+                to{
+                    transform: translateY(+20px);
+                }
+
+            }
+            #second{
+                width: 30px;
+                height: 30px;
+                background-color:red;
+                border-radius: 50%;
+                margin-left: 60;
+                
+                bottom: 40%;
+                animation-duration: 2s;
+                
+                animation-name:redd;
+                animation-iteration-count: infinite;
+                animation-direction:alternate;
+                position: absolute;
+
+            }
+            @keyframes redd{
+                from{
+                    transform: translateY(-20px);
+                }
+                to{
+                    transform: translateY(+20px);
+                }
+            }
+            #third{
+                width: 30px;
+                height: 30px;
+                background-color:green;
+                border-radius: 50%;
+                margin-left: 100;
+                
+                bottom: 40%;
+                animation-duration: 2s;
+                
+                animation-name:greenn;
+                animation-iteration-count: infinite;
+                animation-direction:normal;
+                position: absolute;
+
+            }
+            @keyframes greenn{
+                from{
+                    transform: translateY(-20px);
+                }
+                to{
+                    transform: translateY(+20px);
+                }
+            }
+            #fourth{
+                width: 30px;
+                height: 30px;
+                background-color:black;
+                border-radius: 50%;
+                margin-left: 140;
+                
+                bottom: 40%;
+                animation-duration: 2s;
+                
+                animation-name:blackk;
+                animation-iteration-count: infinite;
+                animation-direction:alternate;
+                position: absolute;
+
+            }
+            @keyframes blackk{
+                from{
+                    transform: translateY(-20px);
+                }
+                to{
+                    transform: translateY(+20px);
+                }
+            }
+            #fivth{
+                width:30px;
+                height:30px;
+                background-color: blueviolet;
+                border-radius: 50%;
+                bottom: 40%;
+                margin-left: 180;
+                animation-duration: 2s;
+                
+                animation-name: violett;
+                animation-iteration-count: infinite;
+                animation-direction: normal;
+                position: absolute;
+            }
+            @keyframes violett{
+                from{
+                    transform:translateY(-20px)
+                }
+                to{
+                    transform: translateY(20px);
+                }
+            }
+
+
+
+
+
+
+
+        </style>
+    </head>
+    <body>
+        <div id="box">
+            <div id="first"></div>
+            <div id="second"></div>
+            <div id="third"></div>
+            <div id="fourth"></div>
+            <div id="fivth"></div>
+        </div>
+    </body>
+</html>
